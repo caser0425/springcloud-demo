@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config-client" />
+        <module name="config-server" />
+        <module name="eureka-client01" />
+        <module name="eureka-client02" />
+        <module name="eureka-client03" />
+        <module name="eureka-server01" />
+        <module name="eureka-server02" />
+        <module name="feign-client" />
+        <module name="hystrix-client" />
+        <module name="zuul-gateway01" />
+        <module name="zuul-gateway02" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-client" options="" />
+      <module name="config-server" options="" />
+      <module name="eureka-client01" options="" />
+      <module name="eureka-client02" options="" />
+      <module name="eureka-client03" options="" />
+      <module name="eureka-server01" options="" />
+      <module name="eureka-server02" options="" />
+      <module name="feign-client" options="" />
+      <module name="hystrix-client" options="" />
+      <module name="zuul-gateway01" options="" />
+      <module name="zuul-gateway02" options="" />
+    </option>
+  </component>
+</project>
